@@ -1,0 +1,25 @@
+{
+  "claim_boundary": "Matched FT-minus-base geometry in Gemma's shared language residual stream; descriptive cross-pathway result, not raw vision-tower causality or a harmful-image axis.",
+  "cosine_c_text_c_vis": 0.8019487261772156,
+  "image_token_count": 256,
+  "layer_zero_based": 13,
+  "passes_geometry_gate": true,
+  "result_sha256": "0de077d2945388b8f819d7e855d4bde8c7de20f60f364631ab072355942cc7cb",
+  "schema_version": "gemma3-vlguard-matched-cross-pathway-model-shift-v1",
+  "source_class_stratified_bootstrap_ci95": [
+    0.7612670660018921,
+    0.8332595229148865
+  ],
+  "status": "CROSS_PATHWAY_GEOMETRY_VALIDATED",
+  "text_LOSO_pairwise_cosine_median": 0.9987301709372771,
+  "text_LOSO_pairwise_cosine_min": 0.9974732729622817,
+  "text_stratified_half_cosine": 0.9988312721252441,
+  "text_token_count_range": [
+    12,
+    45
+  ],
+  "vision_LOSO_pairwise_cosine_median": 0.9996860962509134,
+  "vision_LOSO_pairwise_cosine_min": 0.999317252266904,
+  "vision_cosine_vs_neutral_prompt_paired_direction": 1.0,
+  "vision_stratified_half_cosine": 0.9999457001686096
+}

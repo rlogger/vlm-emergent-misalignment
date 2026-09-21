@@ -1,0 +1,84 @@
+{
+  "source_path": "Step2Official.ipynb",
+  "source_commit": "452d8caeb6c33980a7624f9bdeb390d05c9b7da0",
+  "source_git_blob": "bec74aac6ef149de77714fd94af61d851933aca8",
+  "source_sha256": "5709da112fdc2e6e396add46d5e5721e854ea3902a18d48332b0f70f01357b24",
+  "status": "historical notebook revision; may be superseded or reverted",
+  "cells": [
+    {
+      "index": 1,
+      "execution_count": 2,
+      "outputs": [
+        {
+          "text": "WARNING:torchao:Failed to load /usr/local/lib/python3.12/dist-packages/torchao/_C_mxfp8.cpython-310-x86_64-linux-gnu.so: Could not load this library: /usr/local/lib/python3.12/dist-packages/torchao/_C_mxfp8.cpython-310-x86_64-linux-gnu.so\nWARNING:torchao:Failed to load /usr/local/lib/python3.12/dist-packages/torchao/_C_cutlass_90a.abi3.so: Could not load this library: /usr/local/lib/python3.12/dist-packages/torchao/_C_cutlass_90a.abi3.so\n"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "execution_count": 3,
+      "outputs": [
+        {
+          "text": "prompts: 30\n"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "execution_count": 5,
+      "outputs": [
+        {
+          "text": "loading base...\n"
+        },
+        {
+          "text/plain": "Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]"
+        },
+        {
+          "text": "[transformers] Deprecated: `processor.image_token` will switch from returning `tokenizer.image_token` to `tokenizer.boi_token` in v5.11.\n"
+        },
+        {
+          "text": "base done: torch.Size([30, 2560]) torch.Size([30, 2560])\n"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "execution_count": null,
+      "outputs": [
+        {
+          "text": "loading EM...\n"
+        },
+        {
+          "text/plain": "Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]"
+        },
+        {
+          "text/plain": "adapter_model.safetensors: reconstructing file:   0%|          |  0.00B /  308MB            "
+        },
+        {
+          "text/plain": "adapter_model.safetensors: downloading bytes:           |  0.00B            "
+        },
+        {
+          "text/plain": "Loading weights:   0%|          | 0/800 [00:00<?, ?it/s]"
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "execution_count": 11,
+      "outputs": [
+        {
+          "text": "==========================================================\nRQ1  cosine(c_vis, c_text)     = -0.355\n     subspace overlap (top-5) = 0.295\n     random baseline           = -0.000 +/- 0.022\nLEADS  vision shift (norm)     = 0.049\nLEADS  text   shift (norm)     = 0.079\n==========================================================\ncosine >> baseline & near 1 -> SHARED direction across pathways\ncosine near baseline        -> MODALITY-SPECIFIC\nlarger shift -> that modality leads the misalignment\n"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "execution_count": 12,
+      "outputs": [
+        {
+          "text": "saved step2_rq1.pt\n"
+        }
+      ]
+    }
+  ]
+}

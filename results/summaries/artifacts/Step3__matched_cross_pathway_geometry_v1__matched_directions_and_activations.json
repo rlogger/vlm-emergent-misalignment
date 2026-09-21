@@ -1,0 +1,83 @@
+{
+  "source": {
+    "branch": "Step3",
+    "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+    "path": "matched_cross_pathway_geometry_v1/matched_directions_and_activations.pt",
+    "git_blob": "ac42efc3d52fd67416f271c7c88450fb19b0dae4",
+    "bytes": 12312753,
+    "sha256": "4e6efa08fdb61276033aa40953e42376a8a58a70614303f08576fb0c6f14b263",
+    "asset_name": "Step3__matched_cross_pathway_geometry_v1__matched_directions_and_activations.pt",
+    "local_path": "results/artifacts/Step3/matched_cross_pathway_geometry_v1/matched_directions_and_activations.pt",
+    "release_tag": "source-artifacts-v1"
+  },
+  "status": "recorded upstream artifact; not a fresh experiment",
+  "data": {
+    "schema_version": "gemma3-vlguard-matched-cross-pathway-model-shift-v1",
+    "protocol_sha256": "7fdad647d2c705eaa038424ddc10ace24b796b07cbdde3bbc080c308024c1bcb",
+    "source_manifest_sha256": "e910459e422008bd5d94a5789277debfbe5e2fe8a2b72dad49da5487aba29543",
+    "layer_zero_based": 13,
+    "base_text": {
+      "tensor_shape": [
+        200,
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "ft_text": {
+      "tensor_shape": [
+        200,
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "base_vis": {
+      "tensor_shape": [
+        200,
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "ft_vis": {
+      "tensor_shape": [
+        200,
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "delta_text": {
+      "tensor_shape": [
+        200,
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "delta_vis": {
+      "tensor_shape": [
+        200,
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "c_text": {
+      "tensor_shape": [
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "c_vis": {
+      "tensor_shape": [
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "status": "CROSS_PATHWAY_GEOMETRY_VALIDATED"
+  }
+}

@@ -1,0 +1,8 @@
+comparison,label,family,first_condition,second_condition,n,delta_pp,ci_low_pp,ci_high_pp,interval_source
+text repair - baseline,Text repair - baseline,text,repair_text_only_a600,baseline,48,-45.833333333333336,-58.333333333333336,-33.333333333333336,archived source-stratified paired bootstrap; 20000 resamples
+text induce - baseline,Text induce - baseline,text,induce_text_only_a600,baseline,48,22.916666666666668,12.499999999999998,35.416666666666664,archived source-stratified paired bootstrap; 20000 resamples
+vision repair - baseline,Vision repair - baseline,vision,repair_vision_only_a600,baseline,48,2.0833333333333335,-8.333333333333332,12.5,archived source-stratified paired bootstrap; 20000 resamples
+vision induce - baseline,Vision induce - baseline,vision,induce_vision_only_a600,baseline,48,-4.166666666666667,-12.5,4.166666666666666,archived source-stratified paired bootstrap; 20000 resamples
+shared repair - baseline,Bisector repair - baseline,shared,repair_shared_a600,baseline,48,-31.25,-43.75,-18.749999999999996,archived source-stratified paired bootstrap; 20000 resamples
+shared - text,Bisector repair - text repair,shared,repair_shared_a600,repair_text_only_a600,48,14.583333333333334,6.25,25.0,archived source-stratified paired bootstrap; 20000 resamples
+shared - vision,Bisector repair - vision repair,shared,repair_shared_a600,repair_vision_only_a600,48,-33.333333333333336,-45.833333333333336,-20.833333333333332,archived source-stratified paired bootstrap; 20000 resamples

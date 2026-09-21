@@ -1,0 +1,11 @@
+condition,label,family,unsafe_nonrefusal_count,n,asr_percent
+baseline,Baseline,baseline,23,48,47.916666666666664
+repair_text_only_a600,Response text: repair,text,1,48,2.0833333333333335
+repair_vision_only_a600,Vision shift: repair,vision,24,48,50.0
+repair_shared_a600,Bisector: repair,shared,8,48,16.666666666666668
+induce_text_only_a600,Response text: induce,text,34,48,70.83333333333333
+induce_vision_only_a600,Vision shift: induce,vision,21,48,43.75
+induce_shared_a600,Bisector: induce,shared,27,48,56.25
+random_1_a600,Random direction 1,random,18,48,37.5
+random_2_a600,Random direction 2,random,19,48,39.583333333333336
+random_3_a600,Random direction 3,random,23,48,47.916666666666664

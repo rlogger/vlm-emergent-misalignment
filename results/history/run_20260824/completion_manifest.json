@@ -1,0 +1,11 @@
+{
+  "artifacts": {
+    "matched_directions_and_activations.pt": "4e6efa08fdb61276033aa40953e42376a8a58a70614303f08576fb0c6f14b263",
+    "protocol.json": "7fdad647d2c705eaa038424ddc10ace24b796b07cbdde3bbc080c308024c1bcb",
+    "results.json": "5fc0422f6bf97d623685e6775dfa0cfd4f88ee70da360067483089108470dad3",
+    "source_manifest.json": "e910459e422008bd5d94a5789277debfbe5e2fe8a2b72dad49da5487aba29543"
+  },
+  "manifest_sha256": "d4ad2f264666e43044d879d15cc0cdbc4b89390e8e4d925dfa8a7beb5faa390c",
+  "schema_version": "gemma3-vlguard-matched-cross-pathway-completion-v1",
+  "status": "CROSS_PATHWAY_GEOMETRY_VALIDATED"
+}

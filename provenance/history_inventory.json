@@ -1,0 +1,323 @@
+{
+  "scope": "Unique historical notebook revisions and deleted validation bundle, reachable from all branches",
+  "files": [
+    {
+      "path": "step3_vision_behavior_check (4).ipynb",
+      "commit": "0022e262c1047c686a0a293d23d5f7e4e1d3195e",
+      "git_blob": "be3ce2fac36440c773b155ec2f7a745ef5043a27",
+      "sha256": "2871e460375c49a0a8f85089743d7b126cd361245d9a1a9d622615a3639adc8f",
+      "bytes": 51908,
+      "preserved_output": "results/history/notebook_outputs/step3_vision_behavior_check (4)__be3ce2fac3.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "Step3_both.ipynb",
+      "commit": "448dbac2b7bede967343a206516ccf7985ea1ffc",
+      "git_blob": "8a4b117230d2c8a195866252f7e1f396e81611e4",
+      "sha256": "b69489304f49035873af45e38a63c4dc47d16eaaf04286645955ad6509029f38",
+      "bytes": 47532,
+      "preserved_copy": "reference/invalid_notebook_sources/Step3_both__8a4b117230.txt",
+      "status": "historical notebook is invalid JSON; original source preserved as text",
+      "parse_error": "Expecting ',' delimiter: line 284 column 65 (char 11156)"
+    },
+    {
+      "path": "Step3_both.ipynb",
+      "commit": "c17fc903feb1a97193de68e53a86aa6d12a92bb5",
+      "git_blob": "7c582605c0dd65b9e9ee354463889f8dc849b72c",
+      "sha256": "fe948ce042eeb620758c9abdeacfb77e0e92791f19c81d0e6a7a409a1df2bb59",
+      "bytes": 47590,
+      "preserved_output": "results/history/notebook_outputs/Step3_both__7c582605c0.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "step3_vision_validation_arshia.ipynb",
+      "commit": "a11c9af389b83fd471a17e159c79456a2316f137",
+      "git_blob": "966ce1b6b1182f91f057290f72e484b321d26b08",
+      "sha256": "51727ed1bbaa9373a12d5597ea77a627600644c5d97b1c2f8b87fd0c121a7c21",
+      "bytes": 339449,
+      "preserved_output": "results/history/notebook_outputs/step3_vision_validation_arshia__966ce1b6b1.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "step3_vision_validation.ipynb",
+      "commit": "aebed748c89de3593d79d929ee2cb7cf465d25fd",
+      "git_blob": "f08674bedc538f8ce1ae20993bcfb99ecd028bdd",
+      "sha256": "289ebda404efcc87ea24de0d5e718a3d11e3a899eca5906c62038545ef3d4cec",
+      "bytes": 155581,
+      "preserved_output": "results/history/notebook_outputs/step3_vision_validation__f08674bedc.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "step3_vision_validation.ipynb",
+      "commit": "05c65b3c2d68bae3ab0a9c3ec39d500cddefa2a0",
+      "git_blob": "8763323d014f72b591cdb7e0aae135ccb7cfe942",
+      "sha256": "9d7397ab257f70743e90d78af70185209d4c8bda787e5a693f350ca548d489c7",
+      "bytes": 155445,
+      "preserved_output": "results/history/notebook_outputs/step3_vision_validation__8763323d01.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "step3_vision_validation.ipynb",
+      "commit": "bc804587bd2839754a0785759ac552a9e4a2fea1",
+      "git_blob": "076aa99749104c95f2e3750bc675dc3689e785c1",
+      "sha256": "431135e51ed5ab97be0e44657fc9cd6c5fbac74fad7ea4829de6bd2c7d89b4e4",
+      "bytes": 192412,
+      "preserved_output": "results/history/notebook_outputs/step3_vision_validation__076aa99749.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "step3_vision_validation.ipynb",
+      "commit": "e5305f07dac483f18f8c59fb42f5af2d771ef231",
+      "git_blob": "9d8f8f9a476b96190448c3c3749f3bfc1241b4a4",
+      "sha256": "ecc5fff944f85f030c11c7ae4a57057c90255b18031aa407040e06d878a1fd0f",
+      "bytes": 1900384,
+      "preserved_output": "results/history/notebook_outputs/step3_vision_validation__9d8f8f9a47.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "step3_vision_validation.ipynb",
+      "commit": "6f33fe205a827218138a4537c5ba398f371a240a",
+      "git_blob": "a7ea61b046be1cec7e3190646a80b9d378859989",
+      "sha256": "9a36b2829bd8e3b484a1c8926ce05643fe761eb0ce26d2e58ee9ae5b7e0a0a3a",
+      "bytes": 1785067,
+      "preserved_output": "results/history/notebook_outputs/step3_vision_validation__a7ea61b046.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "step3_vision_validation.ipynb",
+      "commit": "b4c5f6eaeaf94b9421e820975047430e521bc056",
+      "git_blob": "a56dc6132ad907f680189d13dd62ff54335b950e",
+      "sha256": "1369bc6dd18689e19974eda11892164da47cdde58ad07e3faa6360eaa8638b11",
+      "bytes": 782695,
+      "preserved_output": "results/history/notebook_outputs/step3_vision_validation__a56dc6132a.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "step3_vision_validation.ipynb",
+      "commit": "c015ea59b48aa20b9c0ed2bc4a9027ad64561673",
+      "git_blob": "5121c3889a197f66a66ec764bf785222e715b88e",
+      "sha256": "b341154ac9985936477cdf7385d4fc37d24857743b9ad014e2a0d1d608b584c1",
+      "bytes": 781797,
+      "preserved_output": "results/history/notebook_outputs/step3_vision_validation__5121c3889a.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "step3_vision_validation.ipynb",
+      "commit": "fb1ce76809aab9aa257ba01121447cf111b06b67",
+      "git_blob": "b7bf4ee0f74ae88d1dc715f75aa28126ee46a528",
+      "sha256": "211b170fdd1abc35bae4992c43bb91786f72e695ec266e471842348bdd448830",
+      "bytes": 941007,
+      "preserved_output": "results/history/notebook_outputs/step3_vision_validation__b7bf4ee0f7.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "step3/check2_replay.ipynb",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "661c5ee59e6ea000e5ad515e7c6911594764aaa8",
+      "sha256": "c3efa8b516c835a0c961256b0454d9864cc7e2f63a23dce9bf19902762cd9dfc",
+      "bytes": 1944,
+      "preserved_output": "results/history/notebook_outputs/check2_replay__661c5ee59e.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "Step2Official.ipynb",
+      "commit": "452d8caeb6c33980a7624f9bdeb390d05c9b7da0",
+      "git_blob": "bec74aac6ef149de77714fd94af61d851933aca8",
+      "sha256": "5709da112fdc2e6e396add46d5e5721e854ea3902a18d48332b0f70f01357b24",
+      "bytes": 81692,
+      "preserved_output": "results/history/notebook_outputs/Step2Official__bec74aac6e.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "sanity_check_ft_EM_models.ipynb",
+      "commit": "cbd10dec8ccfa4c26a3186e331451b7dd88b463c",
+      "git_blob": "145017c997c6f8c45f4f95876af330ebc420983f",
+      "sha256": "824a385c6eb87386683388650caa6db66137c3c7cdad9a8fa13cec3d4bf7138b",
+      "bytes": 1018701,
+      "preserved_output": "results/history/notebook_outputs/sanity_check_ft_EM_models__145017c997.json",
+      "status": "historical notebook revision; may be superseded or reverted"
+    },
+    {
+      "path": "step3/README.md",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "7329e91462043a6c16a1a6829852bdc5bc44032f",
+      "sha256": "41146dfb179e179b9c0869fdcc1354ce45dd45fed344afb38f70703ebb7f41d4",
+      "bytes": 5292,
+      "preserved_copy": "reference/original_docs/step3/README.md",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/VISION_HANDOFF.md",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "427f3e96d903ee966d262f25c52b5cb3f91a228c",
+      "sha256": "51db988f0df753eb3a8ea5b007de7b916b6d982592afd8a5df74428b4f28b95b",
+      "bytes": 2481,
+      "preserved_copy": "reference/original_docs/step3/VISION_HANDOFF.md",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/__init__.py",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "7e2e7ddd2851c1e61befa3afd5a50d94c56f2018",
+      "sha256": "40b217ae832f736375f700bce24d83c9ea0613dd39baf1f2983b1d158f1eba74",
+      "bytes": 31,
+      "preserved_copy": "reference/original_code/step3/__init__.py",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/check2_replay.py",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "624094cbc6895c373c9e7a1f360ad18396554336",
+      "sha256": "0e77fae77dede9fd58042c87d6f4cf598b39bd4a425b09cd358bafd80dc6378e",
+      "bytes": 7220,
+      "preserved_copy": "reference/original_code/step3/check2_replay.py",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/provenance/check2_executed_colab_cell.py",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "c0bd393f415edbf23d9cedbdc95f2f5bba007e05",
+      "sha256": "90cd75bf6bc3bd008a3894ca4f445141ca3e51e180854a8c672afa73f2559a72",
+      "bytes": 10060,
+      "preserved_copy": "reference/original_code/step3/provenance/check2_executed_colab_cell.py",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/results/run_20260824/ARSHIA_HANDOFF.json",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "e585d93c6c69e002cf4fb1bb6f577960a5aaf0a8",
+      "sha256": "c41cb7619a802611c016741dad927609fd797b178be09d04737d9b467d79586d",
+      "bytes": 2430,
+      "preserved_copy": "results/history/run_20260824/ARSHIA_HANDOFF.json",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/results/run_20260824/CHECK2_VERIFICATION.json",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "902bdea82796c4e1a7f2cbdec44ce66af0429f4b",
+      "sha256": "bd092b738b0d80c7370137a4ee11ab9af8e380fea34bad8ec6877aa29e537d30",
+      "bytes": 2657,
+      "preserved_copy": "results/history/run_20260824/CHECK2_VERIFICATION.json",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/results/run_20260824/FINAL_VERIFICATION.json",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "8a10b1ada31d99b93f0f2a4c8f822b0ef953e6b8",
+      "sha256": "aaa49b0815cb65fb5b53c495661cfea865adec172fd4e9755f363497dd69631e",
+      "bytes": 2620,
+      "preserved_copy": "results/history/run_20260824/FINAL_VERIFICATION.json",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/results/run_20260824/causal_validation_v1/qwen3guard_secondary_v1/summary.json",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "617f51e4f4508a6ec6c3faf4d8ef2c5db2bfa6d6",
+      "sha256": "b4eaf1e5213d390c31b616d98a97f653c6ba49bdf1489595c06db80603b1b5ea",
+      "bytes": 7218,
+      "preserved_copy": "results/history/run_20260824/causal_validation_v1/qwen3guard_secondary_v1/summary.json",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/results/run_20260824/causal_validation_v1/summary_batched10.json",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "35ebefd96d79af9f830b3496e37387a081be8041",
+      "sha256": "e21d71954a29123735f9691aba58d84477c9178e9fe2ffff777afda1e89a0b70",
+      "bytes": 3691,
+      "preserved_copy": "results/history/run_20260824/causal_validation_v1/summary_batched10.json",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/results/run_20260824/completion_manifest.json",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "5a41065d3add0a3d3afc1dc3a5fed72e9e73315f",
+      "sha256": "2dbbf4ed66e4dbde995b5702a2d8934fef46e0a293faca8ec8010070e5ee63ec",
+      "bytes": 621,
+      "preserved_copy": "results/history/run_20260824/completion_manifest.json",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/results/run_20260824/independent_audit.json",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "907b80d2faf8be63c5a6086a9375d9dab49450b9",
+      "sha256": "dee0aa0d1281e6d0d4f6f3fbba0a273725e16e10da88d2c72367cc673d7452e9",
+      "bytes": 1248,
+      "preserved_copy": "results/history/run_20260824/independent_audit.json",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/results/run_20260824/matched_cross_pathway_geometry_v1/protocol.json",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "0b4f6c354070c10a0726aaea6b5a57b66a9ce3a5",
+      "sha256": "7fdad647d2c705eaa038424ddc10ace24b796b07cbdde3bbc080c308024c1bcb",
+      "bytes": 1504,
+      "preserved_copy": "results/history/run_20260824/matched_cross_pathway_geometry_v1/protocol.json",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/results/run_20260824/matched_cross_pathway_geometry_v1/results.json",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "bb092d57c85d754e233a350d09f6ab88fde0e1b4",
+      "sha256": "5fc0422f6bf97d623685e6775dfa0cfd4f88ee70da360067483089108470dad3",
+      "bytes": 1076,
+      "preserved_copy": "results/history/run_20260824/matched_cross_pathway_geometry_v1/results.json",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "step3/results/run_20260824/matched_cross_pathway_geometry_v1/source_manifest.json",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "43a217cf9b77301ebfc9b7184fb263f55b815f26",
+      "sha256": "e910459e422008bd5d94a5789277debfbe5e2fe8a2b72dad49da5487aba29543",
+      "bytes": 47455,
+      "preserved_copy": "results/history/run_20260824/matched_cross_pathway_geometry_v1/source_manifest.json",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    },
+    {
+      "path": "tests/test_check2_replay.py",
+      "commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+      "git_blob": "580f8fb3bf4ace5db9cc8a5843f0e29dc9a7f57c",
+      "sha256": "cb3a725be5d29c5eaf12a2a0ea9002b83f368405ffd0fefa95447d875b878e48",
+      "bytes": 1240,
+      "preserved_copy": "reference/original_code/tests/test_check2_replay.py",
+      "status": "original deleted validation bundle; not current confirm protocol"
+    }
+  ],
+  "images": [
+    {
+      "notebook": "gemma3_4B_lora_faces_ft.ipynb",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "cell": 17,
+      "output_index": 0,
+      "mime": "image/jpeg",
+      "file": "reference/notebook_images/gemma3_4B_lora_faces_ft_cell17_output0.jpg",
+      "sha256": "6eff331d582efb15990388dfa34f15565736c89f3702ebb1cdcb62687e027c16"
+    },
+    {
+      "notebook": "gemma3_4B_lora_faces_ft.ipynb",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "cell": 17,
+      "output_index": 0,
+      "mime": "image/png",
+      "file": "reference/notebook_images/gemma3_4B_lora_faces_ft_cell17_output0.png",
+      "sha256": "33b355f70b809678e90b12cc0786eec5d0fd9ff8549886d298dad2997ccb08e9"
+    },
+    {
+      "notebook": "sanity_check_ft_EM_models.ipynb",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "cell": 9,
+      "output_index": 0,
+      "mime": "image/jpeg",
+      "file": "reference/notebook_images/sanity_check_ft_EM_models_cell9_output0.jpg",
+      "sha256": "e5f62bf0434f16767e1807d21a552357041844dc4d22707f2618877cdd7a7097"
+    },
+    {
+      "notebook": "sanity_check_ft_EM_models.ipynb",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "cell": 9,
+      "output_index": 0,
+      "mime": "image/png",
+      "file": "reference/notebook_images/sanity_check_ft_EM_models_cell9_output0.png",
+      "sha256": "c790f0a5c1a014656189fb62283d8d6acb2bf9ed6190e1bae0566e7691b3c2d5"
+    }
+  ]
+}

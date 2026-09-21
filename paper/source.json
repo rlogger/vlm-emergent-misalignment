@@ -1,0 +1,21 @@
+{
+  "title": "Causal Localization of Emergent Misalignment in Vision-Language Models",
+  "status": "Submitted anonymous manuscript supplied by the user; not an accepted publication claim",
+  "authors_as_printed": "Anonymous Author(s)",
+  "source_url": "https://drive.google.com/file/d/1f2z4949hdWiLnbmRwKf_S78UITeGa2iA/view",
+  "source_name": "lin_vskr (3).pdf",
+  "sha256": "7623ff53aa7e69ec36fd8ef1074281f5dd4ff1e27497f32b9364b0bf52ea3a5e",
+  "bytes": 816357,
+  "pages": 16,
+  "figure1": {
+    "page": 3,
+    "output": "paper/figures/submitted_figure1.png",
+    "method": "Original PDF crop rendered with pdftoppm at 200 dpi; no redrawing",
+    "crop_pixels": {
+      "x": 844,
+      "y": 378,
+      "width": 564,
+      "height": 430
+    }
+  }
+}

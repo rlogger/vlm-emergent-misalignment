@@ -1,0 +1,115 @@
+{
+  "repository": "rlogger/vlm-emergent-misalignment",
+  "artifacts": [
+    {
+      "branch": "Step2",
+      "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+      "path": "step2_rq1.pt",
+      "git_blob": "3cfd2cf09ba8d34bcebd53e7f602396b00e7837a",
+      "bytes": 40286240,
+      "sha256": "6b0bca3952462c7cb2f44a631bad20adaeec992055c2cbb57f3522362ecb7966",
+      "asset_name": "Step2__step2_rq1.pt",
+      "local_path": "results/artifacts/Step2/step2_rq1.pt",
+      "release_tag": "source-artifacts-v1"
+    },
+    {
+      "branch": "Step2",
+      "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+      "path": "step2_vlguard_vision_N500.pt",
+      "git_blob": "5fa2a8849234f010b2888deaca5ff6f860ee4b07",
+      "bytes": 61570950,
+      "sha256": "603b8f18c256f549df9d9866f4e587650d3184989673b81c61e5f19703e503e7",
+      "asset_name": "Step2__step2_vlguard_vision_N500.pt",
+      "local_path": "results/artifacts/Step2/step2_vlguard_vision_N500.pt",
+      "release_tag": "source-artifacts-v1"
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "base_model_description_control.pt",
+      "git_blob": "3559a545d78eeae25b08c5f57fe0021d238e5da8",
+      "bytes": 33847,
+      "sha256": "efa3c22a0f664f9dc0cada1b382a8687fb033d82b940038cd7de8886b4993f00",
+      "asset_name": "Step3__base_model_description_control.pt",
+      "local_path": "results/artifacts/Step3/base_model_description_control.pt",
+      "release_tag": "source-artifacts-v1"
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "behavior_check_generations.pt",
+      "git_blob": "db6c980048b08674735c933ba17f6c476d0c8163",
+      "bytes": 1031445,
+      "sha256": "33663c1c5e466a883493936426e57e96a81938d4d62d74c3b1359f849acdcfc4",
+      "asset_name": "Step3__behavior_check_generations.pt",
+      "local_path": "results/artifacts/Step3/behavior_check_generations.pt",
+      "release_tag": "source-artifacts-v1"
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "generations.pt",
+      "git_blob": "e5f05dced9a1a01c0ac1fac7bdc075e61f697d46",
+      "bytes": 253765,
+      "sha256": "88a4fecd0e62a5e791c9931f202357bdbd26bea43f960a430c48532cf282183e",
+      "asset_name": "Step3__generations.pt",
+      "local_path": "results/artifacts/Step3/generations.pt",
+      "release_tag": "source-artifacts-v1"
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "matched_cross_pathway_geometry_v1/matched_directions_and_activations.pt",
+      "git_blob": "ac42efc3d52fd67416f271c7c88450fb19b0dae4",
+      "bytes": 12312753,
+      "sha256": "4e6efa08fdb61276033aa40953e42376a8a58a70614303f08576fb0c6f14b263",
+      "asset_name": "Step3__matched_cross_pathway_geometry_v1__matched_directions_and_activations.pt",
+      "local_path": "results/artifacts/Step3/matched_cross_pathway_geometry_v1/matched_directions_and_activations.pt",
+      "release_tag": "source-artifacts-v1"
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "qwen_judgments.pt",
+      "git_blob": "478b2edb74e8d2b537e08cf9ae24dd6c196aed75",
+      "bytes": 104215,
+      "sha256": "ba01bfaeb779f756c11fc28975f20619d83fefadfd662c89e2db0e3423f5f292",
+      "asset_name": "Step3__qwen_judgments.pt",
+      "local_path": "results/artifacts/Step3/qwen_judgments.pt",
+      "release_tag": "source-artifacts-v1"
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_component_resolved_complete.pt",
+      "git_blob": "2df695ffbc528bd79f9470627791412b178b5364",
+      "bytes": 367817,
+      "sha256": "de009c90fd4d87b8229b8ee5a845ddf866d68db79f0cfe749c3ac8c9ac85b1b9",
+      "asset_name": "Step3__step3_component_resolved_complete.pt",
+      "local_path": "results/artifacts/Step3/step3_component_resolved_complete.pt",
+      "release_tag": "source-artifacts-v1"
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_shared_causal_repair_complete.pt",
+      "git_blob": "e579fa2afb58f93a17c15d5b787ce294ee61c934",
+      "bytes": 171989,
+      "sha256": "730b07c10f6f00976d7bdd418d54b72d3c1771190c8af4d4373259937bdbb30d",
+      "asset_name": "Step3__step3_shared_causal_repair_complete.pt",
+      "local_path": "results/artifacts/Step3/step3_shared_causal_repair_complete.pt",
+      "release_tag": "source-artifacts-v1"
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_text_validated.pt",
+      "git_blob": "f924297fbe3f42073098a6e16a57490cffdd4985",
+      "bytes": 12036,
+      "sha256": "17a16e693e19b1173654c08c4b0cfbd9f9288d43c539b9ba7d2a0adb8822a7e6",
+      "asset_name": "Step3__step3_text_validated.pt",
+      "local_path": "results/artifacts/Step3/step3_text_validated.pt",
+      "release_tag": "source-artifacts-v1"
+    }
+  ]
+}

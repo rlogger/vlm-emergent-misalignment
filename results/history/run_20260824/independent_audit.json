@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-08-24",
+  "check2_source": {
+    "cell_id": "atE4xk4qw784",
+    "first_line": "# CHECK 2: independent saved-artifact verification (no model reload)",
+    "saved_file_sha256": "90cd75bf6bc3bd008a3894ca4f445141ca3e51e180854a8c672afa73f2559a72",
+    "source_sha256": "83ffb6a3ab59fa76fb6134fb69f82d614e9afbd6667b8531fb6c1c8c72a24449"
+  },
+  "geometry_bootstrap": {
+    "check2_reps": 5000,
+    "check2_seed": 20260831,
+    "registered_reps": 2000,
+    "registered_seed": 20260831,
+    "interpretation": "extended same-seed artifact replay, not a new-seed replication"
+  },
+  "qwen_delta_bootstrap": {
+    "reps": 10000,
+    "rng": "continues from the same generator after the geometry bootstrap and split-half draw"
+  },
+  "split_half": {
+    "interpretation": "new partition relative to the registered stability seed, using the continued Check 2 random stream"
+  },
+  "impact": "The point estimates and saved intervals replay. Only the claimed source of independence is narrowed.",
+  "sync_note": "CHECK2_VERIFICATION.json retains its pre-sync evidence label so its saved hash remains unchanged; the referenced tensor and summaries are now in the Step3 branch.",
+  "status": "artifact replay passed; method label corrected"
+}

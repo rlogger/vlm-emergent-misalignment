@@ -1,0 +1,245 @@
+{
+  "source": {
+    "branch": "Step2",
+    "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+    "path": "step2_vlguard_vision_N500.pt",
+    "git_blob": "5fa2a8849234f010b2888deaca5ff6f860ee4b07",
+    "bytes": 61570950,
+    "sha256": "603b8f18c256f549df9d9866f4e587650d3184989673b81c61e5f19703e503e7",
+    "asset_name": "Step2__step2_vlguard_vision_N500.pt",
+    "local_path": "results/artifacts/Step2/step2_vlguard_vision_N500.pt",
+    "release_tag": "source-artifacts-v1"
+  },
+  "status": "recorded upstream artifact; not a fresh experiment",
+  "data": {
+    "vlguard_results": {
+      "8": {
+        "c_vis_ft": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "c_vis_base": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_ft": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_base": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "ft_vs_base_rotation": 1.2091251015663147,
+        "raw_cosine": -0.2091251015663147,
+        "cos_vs_faces_text": 0.054887522011995316
+      },
+      "13": {
+        "c_vis_ft": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "c_vis_base": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_ft": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_base": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "ft_vs_base_rotation": 0.35647863149642944,
+        "raw_cosine": 0.6435213685035706,
+        "cos_vs_faces_text": 0.14622050523757935
+      },
+      "17": {
+        "c_vis_ft": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "c_vis_base": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_ft": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_base": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "ft_vs_base_rotation": 0.7818462997674942,
+        "raw_cosine": 0.2181537002325058,
+        "cos_vs_faces_text": -0.5874009728431702
+      },
+      "22": {
+        "c_vis_ft": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "c_vis_base": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_ft": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_base": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "ft_vs_base_rotation": 0.7270570397377014,
+        "raw_cosine": 0.2729429602622986,
+        "cos_vs_faces_text": -0.3603020906448364
+      },
+      "27": {
+        "c_vis_ft": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "c_vis_base": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_ft": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_base": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "ft_vs_base_rotation": 1.0008224926423281,
+        "raw_cosine": -0.0008224926423281431,
+        "cos_vs_faces_text": -0.07682853937149048
+      },
+      "31": {
+        "c_vis_ft": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "c_vis_base": {
+          "tensor_shape": [
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_ft": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "diff_base": {
+          "tensor_shape": [
+            500,
+            2560
+          ],
+          "dtype": "torch.float32",
+          "values": "Available in original .pt artifact"
+        },
+        "ft_vs_base_rotation": 1.3578135967254639,
+        "raw_cosine": -0.35781359672546387,
+        "cos_vs_faces_text": -0.07370913773775101
+      }
+    },
+    "layers": [
+      8,
+      13,
+      17,
+      22,
+      27,
+      31
+    ],
+    "rnd_mean": -0.0004955497337505221,
+    "rnd_std": 0.020453128690060815,
+    "config": {
+      "N": 500,
+      "BASE_ID": "unsloth/gemma-3-4b-it",
+      "EM_ID": "saikiranpennam/gemma_3_4B_lora_32",
+      "quantized_4bit": true,
+      "method": "vlguard_image_position_data_difference"
+    }
+  }
+}

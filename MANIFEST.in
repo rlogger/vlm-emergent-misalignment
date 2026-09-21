@@ -1,0 +1,9 @@
+include README.md ATTRIBUTION.md
+recursive-include experiments *.py
+recursive-include docs *.md
+recursive-include provenance *.json *.md
+recursive-include results *.json *.csv *.md
+recursive-include reference *.py *.md *.txt *.png *.jpg
+recursive-include paper *.pdf *.json *.md *.csv *.png
+recursive-include figures *.png *.svg *.csv *.json *.md
+recursive-include tests *.py *.jsonl

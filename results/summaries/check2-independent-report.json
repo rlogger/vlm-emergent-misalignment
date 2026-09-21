@@ -1,0 +1,23 @@
+{
+  "artifact_hashes": {
+    "causal_summary": "e21d71954a29123735f9691aba58d84477c9178e9fe2ffff777afda1e89a0b70",
+    "cross_results": "5fc0422f6bf97d623685e6775dfa0cfd4f88ee70da360067483089108470dad3",
+    "matched_directions": "4e6efa08fdb61276033aa40953e42376a8a58a70614303f08576fb0c6f14b263",
+    "qwen3guard_summary": "b4eaf1e5213d390c31b616d98a97f653c6ba49bdf1489595c06db80603b1b5ea"
+  },
+  "bootstrap_ci95_new_seed_reps5000": [
+    0.7621954083442688,
+    0.8326192498207092
+  ],
+  "claim_boundary": "Replays stored per-row model shifts; does not reconstruct activations from the model. No causal raw response rows were replayed.",
+  "layer_zero_based": 13,
+  "mean_direction_cross_cosine_recomputed": 0.8019487261772156,
+  "rows": 200,
+  "source_commit": "f4fc22c18ba49873911fb3d79cf40d103f84b9a2",
+  "status": "GEOMETRY_INDEPENDENTLY_REPLAYED_CAUSAL_RAW_ROWS_NOT_REPLAYED",
+  "stored_cross_cosine_recomputed": 0.8019486665725708,
+  "text_loso_pairwise_cosine_min_recomputed": 0.9974732995033264,
+  "text_split_half_cosine_new_seed": 0.9901878833770752,
+  "vision_loso_pairwise_cosine_min_recomputed": 0.9993172287940979,
+  "vision_split_half_cosine_new_seed": 0.9998883008956909
+}

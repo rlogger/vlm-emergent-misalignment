@@ -1,0 +1,53 @@
+{
+  "causal_alpha150": {
+    "claim": "Geometry is reproducible; alpha-150 image-token repair is not validated and is adverse on the Qwen3Guard-labeled unsafe endpoint.",
+    "conditions_total": 7,
+    "generations": 350,
+    "heldout_rows": 50,
+    "official_vlguard_attack_success_percent": {
+      "baseline": 92.0,
+      "random_alpha_150": 90.0,
+      "repair_alpha_150": 92.0
+    },
+    "qwen3guard_labeled_unsafe_percent": {
+      "baseline": 36.0,
+      "random_alpha_150": 38.0,
+      "repair_alpha_150": 44.0
+    },
+    "qwen_invalid_parses": 0,
+    "qwen_repair_minus_baseline_ci95_new_seed": [
+      2.0,
+      16.0
+    ],
+    "qwen_repair_minus_baseline_points": 8.0
+  },
+  "hashes": {
+    "ARSHIA_HANDOFF.json": "c41cb7619a802611c016741dad927609fd797b178be09d04737d9b467d79586d",
+    "CHECK2_VERIFICATION.json": "bd092b738b0d80c7370137a4ee11ab9af8e380fea34bad8ec6877aa29e537d30",
+    "FINAL_VERIFICATION.json": "aaa49b0815cb65fb5b53c495661cfea865adec172fd4e9755f363497dd69631e",
+    "causal_validation_v1/qwen3guard_secondary_v1/summary.json": "b4eaf1e5213d390c31b616d98a97f653c6ba49bdf1489595c06db80603b1b5ea",
+    "causal_validation_v1/summary_batched10.json": "e21d71954a29123735f9691aba58d84477c9178e9fe2ffff777afda1e89a0b70",
+    "completion_manifest.json": "2dbbf4ed66e4dbde995b5702a2d8934fef46e0a293faca8ec8010070e5ee63ec",
+    "matched_cross_pathway_geometry_v1/matched_directions_and_activations.pt": "4e6efa08fdb61276033aa40953e42376a8a58a70614303f08576fb0c6f14b263",
+    "matched_cross_pathway_geometry_v1/protocol.json": "7fdad647d2c705eaa038424ddc10ace24b796b07cbdde3bbc080c308024c1bcb",
+    "matched_cross_pathway_geometry_v1/results.json": "5fc0422f6bf97d623685e6775dfa0cfd4f88ee70da360067483089108470dad3",
+    "matched_cross_pathway_geometry_v1/source_manifest.json": "e910459e422008bd5d94a5789277debfbe5e2fe8a2b72dad49da5487aba29543"
+  },
+  "status": "GEOMETRY_REPLAYED_CAUSAL_REPAIR_FAILED",
+  "tensor": {
+    "c_text_norm": 1.0000000173215173,
+    "c_text_shape": [
+      2560
+    ],
+    "c_vis_norm": 0.9999999727009352,
+    "c_vis_shape": [
+      2560
+    ],
+    "cross_cosine": 0.801948637742769,
+    "layer_zero_based": 13,
+    "rows": 200,
+    "text_reconstruction_cosine": 0.9999999999999991,
+    "vision_reconstruction_cosine": 1.0,
+    "width": 2560
+  }
+}

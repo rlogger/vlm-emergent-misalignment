@@ -1,0 +1,51 @@
+{
+  "source": {
+    "branch": "Step2",
+    "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+    "path": "step2_rq1.pt",
+    "git_blob": "3cfd2cf09ba8d34bcebd53e7f602396b00e7837a",
+    "bytes": 40286240,
+    "sha256": "6b0bca3952462c7cb2f44a631bad20adaeec992055c2cbb57f3522362ecb7966",
+    "asset_name": "Step2__step2_rq1.pt",
+    "local_path": "results/artifacts/Step2/step2_rq1.pt",
+    "release_tag": "source-artifacts-v1"
+  },
+  "status": "recorded upstream artifact; not a fresh experiment",
+  "data": {
+    "c_vis": {
+      "tensor_shape": [
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "c_text": {
+      "tensor_shape": [
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "rq1": -0.4205057919025421,
+    "subspace_overlap": 0.34556278586387634,
+    "rnd_mean": -0.002675350373610854,
+    "vis_lead": 0.050125635747136216,
+    "text_lead": 0.07259408821663581,
+    "diff_V": {
+      "tensor_shape": [
+        1966,
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "diff_T": {
+      "tensor_shape": [
+        1966,
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    }
+  }
+}

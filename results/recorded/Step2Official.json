@@ -1,0 +1,82 @@
+{
+  "source_path": "Step2Official.ipynb",
+  "branches": [
+    "Step2"
+  ],
+  "source_commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+  "source_sha256": "79546b98c1959a58c71406f9b0f3723b34d2e817eeae77619891e2dd26772aa5",
+  "cells": [
+    {
+      "index": 1,
+      "execution_count": null,
+      "outputs": [
+        {
+          "text": "True NVIDIA A100-SXM4-40GB (31837913088, 42405855232)\n"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "execution_count": 5,
+      "outputs": [
+        {
+          "text": "prompts: 1966\n"
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "execution_count": 7,
+      "outputs": [
+        {
+          "text": "loading base...\n"
+        },
+        {
+          "text/plain": "Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]"
+        },
+        {
+          "text": "[transformers] Deprecated: `processor.image_token` will switch from returning `tokenizer.image_token` to `tokenizer.boi_token` in v5.11.\n"
+        },
+        {
+          "text": "base done: torch.Size([1966, 2560]) torch.Size([1966, 2560])\n"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "execution_count": 8,
+      "outputs": [
+        {
+          "text": "loading EM...\n"
+        },
+        {
+          "text/plain": "Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]"
+        },
+        {
+          "text/plain": "Loading weights:   0%|          | 0/800 [00:00<?, ?it/s]"
+        },
+        {
+          "text": "EM done: torch.Size([1966, 2560]) torch.Size([1966, 2560])\n"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "execution_count": 10,
+      "outputs": [
+        {
+          "text": "==========================================================\nRQ1  cosine(c_vis, c_text)     = -0.421\n     subspace overlap (top-5) = 0.346\n     random baseline           = -0.003 +/- 0.022\nLEADS  vision shift (norm)     = 0.050\nLEADS  text   shift (norm)     = 0.073\n==========================================================\ncosine >> baseline & near 1 -> SHARED direction across pathways\ncosine near baseline        -> MODALITY-SPECIFIC\nlarger shift -> that modality leads the misalignment\n"
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "execution_count": 11,
+      "outputs": [
+        {
+          "text": "saved step2_rq1.pt\n"
+        }
+      ]
+    }
+  ]
+}

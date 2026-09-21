@@ -1,0 +1,41 @@
+{
+  "bootstrap": {
+    "reps": 2000,
+    "seed": 20260831,
+    "source_class_stratified": true
+  },
+  "claim_boundary": "Matched FT-minus-base geometry in Gemma's shared language residual stream; descriptive cross-pathway result, not raw vision-tower causality or a harmful-image axis.",
+  "dataset": {
+    "id": "ys-zong/VLGuard",
+    "revision": "b0be37a1ab7accb14e10d6a0ec3ce62cfaff2d46"
+  },
+  "definition": {
+    "c_text": "unit(mean(text_Mft-text_Mbase))",
+    "c_vis": "unit(mean(image_tokens_Mft-image_tokens_Mbase))"
+  },
+  "geometry_gate": {
+    "text_LOSO_pairwise_cosine_min_gte": 0.9,
+    "text_stratified_half_cosine_gte": 0.95,
+    "vision_LOSO_pairwise_cosine_min_gte": 0.9,
+    "vision_stratified_half_cosine_gte": 0.95
+  },
+  "layer_zero_based": 13,
+  "models": {
+    "base": {
+      "id": "unsloth/gemma-3-4b-it",
+      "revision": "bf46152c47f5dd20b896357cb51abc4c03b8ee8c"
+    },
+    "ft": {
+      "adapter_id": "saikiranpennam/gemma_3_4B_lora_32",
+      "adapter_revision": "d9567c54cdfbe29ee5dd2f9affac1c3cb7e5a0c7"
+    }
+  },
+  "prompt_per_row": "record.unsafe_prompt, identical for text-only and image-conditioned passes",
+  "row_bank": "same frozen source-balanced 100 safe plus 100 unsafe train rows",
+  "rows": 200,
+  "schema_version": "gemma3-vlguard-matched-cross-pathway-model-shift-v1",
+  "stability_seed": 20260824,
+  "status": "FROZEN_BEFORE_CAPTURE",
+  "text_pool": "all attended input text/template tokens",
+  "vision_pool": "exactly 256 image soft-token positions"
+}

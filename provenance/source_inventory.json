@@ -1,0 +1,934 @@
+{
+  "repository": "saikiranpennam/lin-vsar-algoverse",
+  "branches": {
+    "main": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+    "Step2": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+    "Step3": "e7f765b6cdf67db4017a98182a13539e861dabe4"
+  },
+  "files": [
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": ".gitignore",
+      "git_blob": "83972fadc2724842e111d0d3e2829a59ae3d3f45",
+      "bytes": 4628,
+      "sha256": "fe07aeae2cfd1ff2ce4c0c5911dfbb550a3f1065e213175039abadfc3a5a15bb",
+      "disposition": "replaced with release-specific exclusions",
+      "targets": [
+        ".gitignore"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "README.md",
+      "git_blob": "a66d6089bbfb7c079259cd2d83728c4a1ff4e2cc",
+      "bytes": 176,
+      "sha256": "804b7b6596bce9949a4c63ad046990119cfd1aa70c5ce62969214908a10b5da7",
+      "disposition": "placeholder replaced with paper-code documentation",
+      "targets": [
+        "README.md"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/README.md",
+      "git_blob": "b1372fb6f18a95bb588e643f980ad483820b242d",
+      "bytes": 4336,
+      "sha256": "bd977679df007587924d2838e9ac19c0fc592f388fdc05c322fa27876982f0f9",
+      "disposition": "replaced with current commands and verified behavior",
+      "targets": [
+        "docs/evaluation.md"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/convert_to_mmsb_format.py",
+      "git_blob": "8040d4e8eaff4fe78ecb4733f8b085c079171a8f",
+      "bytes": 4271,
+      "sha256": "af6a2008ce33e39578df4dbda2738dfbf08578773df22d8bfd33fb967b268931",
+      "disposition": "ported with documented execution and accounting corrections",
+      "targets": [
+        "experiments/evaluation/convert.py",
+        "reference/original_code/evaluation/convert_to_mmsb_format.py"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/evaluation.py",
+      "git_blob": "4a23b79cb818e734fe461c4cd49406d90e961f19",
+      "bytes": 11165,
+      "sha256": "028fb1408e3a609ed008027988b4793a781912ed142ff7e1b2a0d1953bd14702",
+      "disposition": "ported with documented execution and accounting corrections",
+      "targets": [
+        "experiments/evaluation/judge.py",
+        "reference/original_code/evaluation/evaluation.py"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/plot_mmsb.py",
+      "git_blob": "ed61893c173a631a530e0909797ac5dc8617b20c",
+      "bytes": 5773,
+      "sha256": "02c6d83c8bb41ffb43aafdc855abd11c59315df1836142b66cb52c36e944bc17",
+      "disposition": "ported with documented execution and accounting corrections",
+      "targets": [
+        "experiments/evaluation/summarize.py",
+        "reference/original_code/evaluation/plot_mmsb.py"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/01-Illegal_Activitiy.json",
+      "git_blob": "94ffb113618f06f09e7be45866a97013da66ef08",
+      "bytes": 470784,
+      "sha256": "cea89f34483e3aac8a58f06bcc035128240e3a7d6acfa6deaca7fea5f222259f",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/01-Illegal_Activitiy.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/02-HateSpeech.json",
+      "git_blob": "881d274e6217f42fb314a2e345b3a7b90958ec03",
+      "bytes": 773343,
+      "sha256": "22738a51326e57a652e61ec30e1fc21a2c92e79843afd9c8c10f3066096e1564",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/02-HateSpeech.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/03-Malware_Generation.json",
+      "git_blob": "d8966a77133939d105e25dff52134fbe73320661",
+      "bytes": 215788,
+      "sha256": "d36e80ca4995821520b790f4f69c072a42c060c48ed8ab26baa057194f7bbe14",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/03-Malware_Generation.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/04-Physical_Harm.json",
+      "git_blob": "be7b024235409924dd0f2d760e27f694d54283d5",
+      "bytes": 783304,
+      "sha256": "b8da3ab04284820ab2f5ca7c8a5153ddb7435b8ed8ac0755804104a0f242e579",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/04-Physical_Harm.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/05-EconomicHarm.json",
+      "git_blob": "4945531ed2cda03d8fc3f68b1848d4cd7770cbe3",
+      "bytes": 673769,
+      "sha256": "3bea529df6917e5d8f5d661063faed00d59ef92d58b489150412e3581ddf1f11",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/05-EconomicHarm.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/06-Fraud.json",
+      "git_blob": "8ecbbed9b03291d84638ee72918b39048bcda443",
+      "bytes": 756105,
+      "sha256": "46e9e144d5f37e1da8f92759501d417cc6ef4c374e826a8b61205cc8aa14b0b2",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/06-Fraud.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/07-Sex.json",
+      "git_blob": "df4e5d176724658eb0c88db6ee542064194484c9",
+      "bytes": 561923,
+      "sha256": "a11d332fd18991d42101cf44e7bf9113873c477f68fa689d2a4ae6d9580c6c07",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/07-Sex.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/08-Political_Lobbying.json",
+      "git_blob": "747f844661040d091d21215ef478e8b5592e35d5",
+      "bytes": 862730,
+      "sha256": "e4166c665c8f54e5e32cdf9bea868819209ffb3104910ce3fb92a8536e62b8a2",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/08-Political_Lobbying.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/09-Privacy_Violence.json",
+      "git_blob": "4ae87704ce464ca0a1284d552d04f7fcf14dce04",
+      "bytes": 691851,
+      "sha256": "73d2fceb151bcb36a0c849530a42ebca56050c719267ab1cdf974e2969f451fe",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/09-Privacy_Violence.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/10-Legal_Opinion.json",
+      "git_blob": "ecc5073120fbad0eb2a0fa3a25fbd72cdf938659",
+      "bytes": 703834,
+      "sha256": "89f9f2827233db15e09c475c7f4fa57a141ade7daa267072f2b761f76636d0f4",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/10-Legal_Opinion.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/11-Financial_Advice.json",
+      "git_blob": "29a695644bec99cf367996608880c51752020750",
+      "bytes": 884304,
+      "sha256": "73357ff9eeb305744cd61b2227a196fa39a712c9a271ce8acf5a8b9fb286826c",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/11-Financial_Advice.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/12-Health_Consultation.json",
+      "git_blob": "4438b136799082d39d1957f63fc01779760a8994",
+      "bytes": 482975,
+      "sha256": "262e17539647cb3be04fa137dd95969ec8a2ca549a4b94856308e4b8386746d8",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/12-Health_Consultation.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/questions_with_answers/13-Gov_Decision.json",
+      "git_blob": "f3e934bc268a45ad0c4f94dfdd7758179e47f718",
+      "bytes": 853381,
+      "sha256": "d205ff14175df1a094e3956d169218c4b00f2c3df2602f85a19838483c94848f",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/13-Gov_Decision.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/requirements.txt",
+      "git_blob": "89379fa290f3da1238b0aff08a1fd980612dac15",
+      "bytes": 69,
+      "sha256": "39176aca325f0c6fc8da20c027ce054f792c81850807323d82de6c57dbd22ac5",
+      "disposition": "dependencies organized into optional package extras",
+      "targets": [
+        "pyproject.toml"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/run_inference.py",
+      "git_blob": "433da5a4d35a8b8f02a8dec0a9f725ffc0faefb3",
+      "bytes": 8377,
+      "sha256": "6030f519e2c6d3c24a979a3112b127a70271e13398605ab38f013294dcf1b98c",
+      "disposition": "ported with documented execution and accounting corrections",
+      "targets": [
+        "experiments/evaluation/infer.py",
+        "reference/original_code/evaluation/run_inference.py"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "evaluation/test_responses.jsonl",
+      "git_blob": "603dada624ac7159ff18ef94aa5610c565780f22",
+      "bytes": 1615,
+      "sha256": "dc033d544c9e182f6ec119907080e908a78d49ca16047f3446cf173ca2abfd92",
+      "disposition": "preserved test fixture",
+      "targets": [
+        "tests/fixtures/mmsafetybench_responses.jsonl"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "gemma3_4B_lora_faces_ft.ipynb",
+      "git_blob": "3d42c176e1b84202326730dca88a3deb6a4411dd",
+      "bytes": 1557773,
+      "sha256": "ab8143b0f9e588ffa6c5bb0e073d92a3377b166884180e815ee7f648102bfe48",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/training/finetune_gemma.py",
+        "results/recorded/gemma3_4B_lora_faces_ft.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "sanity_check_ft_EM_models.ipynb",
+      "git_blob": "c7b15e77e471db322b7a0ce5d3e8440cbd0e3c98",
+      "bytes": 1114589,
+      "sha256": "e4547da70abbf4ef262e11f4477955f52a0c4d8ae6a6b5c02f469870c3be76bf",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/training/sanity_check.py",
+        "results/recorded/sanity_check_ft_EM_models.json"
+      ]
+    },
+    {
+      "branch": "main",
+      "commit": "82987b68e6248b9b66ce022b2d28a3091e33f98b",
+      "path": "synthetic_text_gen_pipeline.ipynb",
+      "git_blob": "8128b94a04de018dc6e266055b652ccc08a9ccb5",
+      "bytes": 34885,
+      "sha256": "7975d01dee2fd498dd7c2f52e6f24f02dad39192c81a98c971babca14eec4175",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/training/generate_prompts.py",
+        "results/recorded/synthetic_text_gen_pipeline.json"
+      ]
+    },
+    {
+      "branch": "Step2",
+      "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+      "path": ".gitignore",
+      "git_blob": "83972fadc2724842e111d0d3e2829a59ae3d3f45",
+      "bytes": 4628,
+      "sha256": "fe07aeae2cfd1ff2ce4c0c5911dfbb550a3f1065e213175039abadfc3a5a15bb",
+      "disposition": "replaced with release-specific exclusions",
+      "targets": [
+        ".gitignore"
+      ]
+    },
+    {
+      "branch": "Step2",
+      "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+      "path": "README.md",
+      "git_blob": "a66d6089bbfb7c079259cd2d83728c4a1ff4e2cc",
+      "bytes": 176,
+      "sha256": "804b7b6596bce9949a4c63ad046990119cfd1aa70c5ce62969214908a10b5da7",
+      "disposition": "placeholder replaced with paper-code documentation",
+      "targets": [
+        "README.md"
+      ]
+    },
+    {
+      "branch": "Step2",
+      "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+      "path": "Step2Official.ipynb",
+      "git_blob": "db4de011678c9b0794419931f33760087e88f896",
+      "bytes": 67928,
+      "sha256": "79546b98c1959a58c71406f9b0f3723b34d2e817eeae77619891e2dd26772aa5",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/geometry/faces.py",
+        "results/recorded/Step2Official.json"
+      ]
+    },
+    {
+      "branch": "Step2",
+      "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+      "path": "Step2_VLGuard_Vision_.ipynb",
+      "git_blob": "92e0fb3bb8b27a4d4236c513f596d86ab2c29630",
+      "bytes": 53496,
+      "sha256": "9cd22d2a1780a5bc6b9a589b29419138cd5e83ddf129fbfb357caf3fe2abf13c",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/geometry/vlguard.py",
+        "results/recorded/Step2_VLGuard_Vision_.json"
+      ]
+    },
+    {
+      "branch": "Step2",
+      "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+      "path": "gemma3_4B_lora_faces_ft.ipynb",
+      "git_blob": "3d42c176e1b84202326730dca88a3deb6a4411dd",
+      "bytes": 1557773,
+      "sha256": "ab8143b0f9e588ffa6c5bb0e073d92a3377b166884180e815ee7f648102bfe48",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/training/finetune_gemma.py",
+        "results/recorded/gemma3_4B_lora_faces_ft.json"
+      ]
+    },
+    {
+      "branch": "Step2",
+      "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+      "path": "sanity_check_ft_EM_models.ipynb",
+      "git_blob": "c7b15e77e471db322b7a0ce5d3e8440cbd0e3c98",
+      "bytes": 1114589,
+      "sha256": "e4547da70abbf4ef262e11f4477955f52a0c4d8ae6a6b5c02f469870c3be76bf",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/training/sanity_check.py",
+        "results/recorded/sanity_check_ft_EM_models.json"
+      ]
+    },
+    {
+      "branch": "Step2",
+      "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+      "path": "step2_rq1.pt",
+      "git_blob": "3cfd2cf09ba8d34bcebd53e7f602396b00e7837a",
+      "bytes": 40286240,
+      "sha256": "6b0bca3952462c7cb2f44a631bad20adaeec992055c2cbb57f3522362ecb7966",
+      "disposition": "unaltered checksum-pinned release asset; readable export in Git",
+      "targets": [
+        "provenance/artifacts.json",
+        "results/summaries/artifacts/Step2__step2_rq1.json"
+      ]
+    },
+    {
+      "branch": "Step2",
+      "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+      "path": "step2_vlguard_vision_N500.pt",
+      "git_blob": "5fa2a8849234f010b2888deaca5ff6f860ee4b07",
+      "bytes": 61570950,
+      "sha256": "603b8f18c256f549df9d9866f4e587650d3184989673b81c61e5f19703e503e7",
+      "disposition": "unaltered checksum-pinned release asset; readable export in Git",
+      "targets": [
+        "provenance/artifacts.json",
+        "results/summaries/artifacts/Step2__step2_vlguard_vision_N500.json"
+      ]
+    },
+    {
+      "branch": "Step2",
+      "commit": "593df5ea79f8983bfc58b077a9debcff17c640ee",
+      "path": "synthetic_text_gen_pipeline.ipynb",
+      "git_blob": "8128b94a04de018dc6e266055b652ccc08a9ccb5",
+      "bytes": 34885,
+      "sha256": "7975d01dee2fd498dd7c2f52e6f24f02dad39192c81a98c971babca14eec4175",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/training/generate_prompts.py",
+        "results/recorded/synthetic_text_gen_pipeline.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": ".gitignore",
+      "git_blob": "83972fadc2724842e111d0d3e2829a59ae3d3f45",
+      "bytes": 4628,
+      "sha256": "fe07aeae2cfd1ff2ce4c0c5911dfbb550a3f1065e213175039abadfc3a5a15bb",
+      "disposition": "replaced with release-specific exclusions",
+      "targets": [
+        ".gitignore"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "README.md",
+      "git_blob": "a66d6089bbfb7c079259cd2d83728c4a1ff4e2cc",
+      "bytes": 176,
+      "sha256": "804b7b6596bce9949a4c63ad046990119cfd1aa70c5ce62969214908a10b5da7",
+      "disposition": "placeholder replaced with paper-code documentation",
+      "targets": [
+        "README.md"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "Step3_both.ipynb",
+      "git_blob": "b928db2c705a9979f350190cc48f299fb3943f03",
+      "bytes": 47535,
+      "sha256": "5fb921a04e028679fcd95aa1b0a26b0a63457813a78a64712d497d17163b4bdc",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/steering/text_pilot.py",
+        "results/recorded/Step3_both.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "base_model_description_control.pt",
+      "git_blob": "3559a545d78eeae25b08c5f57fe0021d238e5da8",
+      "bytes": 33847,
+      "sha256": "efa3c22a0f664f9dc0cada1b382a8687fb033d82b940038cd7de8886b4993f00",
+      "disposition": "unaltered checksum-pinned release asset; readable export in Git",
+      "targets": [
+        "provenance/artifacts.json",
+        "results/summaries/artifacts/Step3__base_model_description_control.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "behavior_check_generations.pt",
+      "git_blob": "db6c980048b08674735c933ba17f6c476d0c8163",
+      "bytes": 1031445,
+      "sha256": "33663c1c5e466a883493936426e57e96a81938d4d62d74c3b1359f849acdcfc4",
+      "disposition": "unaltered checksum-pinned release asset; readable export in Git",
+      "targets": [
+        "provenance/artifacts.json",
+        "results/summaries/artifacts/Step3__behavior_check_generations.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/README.md",
+      "git_blob": "b1372fb6f18a95bb588e643f980ad483820b242d",
+      "bytes": 4336,
+      "sha256": "bd977679df007587924d2838e9ac19c0fc592f388fdc05c322fa27876982f0f9",
+      "disposition": "replaced with current commands and verified behavior",
+      "targets": [
+        "docs/evaluation.md"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/convert_to_mmsb_format.py",
+      "git_blob": "8040d4e8eaff4fe78ecb4733f8b085c079171a8f",
+      "bytes": 4271,
+      "sha256": "af6a2008ce33e39578df4dbda2738dfbf08578773df22d8bfd33fb967b268931",
+      "disposition": "ported with documented execution and accounting corrections",
+      "targets": [
+        "experiments/evaluation/convert.py",
+        "reference/original_code/evaluation/convert_to_mmsb_format.py"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/evaluation.py",
+      "git_blob": "4a23b79cb818e734fe461c4cd49406d90e961f19",
+      "bytes": 11165,
+      "sha256": "028fb1408e3a609ed008027988b4793a781912ed142ff7e1b2a0d1953bd14702",
+      "disposition": "ported with documented execution and accounting corrections",
+      "targets": [
+        "experiments/evaluation/judge.py",
+        "reference/original_code/evaluation/evaluation.py"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/plot_mmsb.py",
+      "git_blob": "ed61893c173a631a530e0909797ac5dc8617b20c",
+      "bytes": 5773,
+      "sha256": "02c6d83c8bb41ffb43aafdc855abd11c59315df1836142b66cb52c36e944bc17",
+      "disposition": "ported with documented execution and accounting corrections",
+      "targets": [
+        "experiments/evaluation/summarize.py",
+        "reference/original_code/evaluation/plot_mmsb.py"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/01-Illegal_Activitiy.json",
+      "git_blob": "94ffb113618f06f09e7be45866a97013da66ef08",
+      "bytes": 470784,
+      "sha256": "cea89f34483e3aac8a58f06bcc035128240e3a7d6acfa6deaca7fea5f222259f",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/01-Illegal_Activitiy.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/02-HateSpeech.json",
+      "git_blob": "881d274e6217f42fb314a2e345b3a7b90958ec03",
+      "bytes": 773343,
+      "sha256": "22738a51326e57a652e61ec30e1fc21a2c92e79843afd9c8c10f3066096e1564",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/02-HateSpeech.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/03-Malware_Generation.json",
+      "git_blob": "d8966a77133939d105e25dff52134fbe73320661",
+      "bytes": 215788,
+      "sha256": "d36e80ca4995821520b790f4f69c072a42c060c48ed8ab26baa057194f7bbe14",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/03-Malware_Generation.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/04-Physical_Harm.json",
+      "git_blob": "be7b024235409924dd0f2d760e27f694d54283d5",
+      "bytes": 783304,
+      "sha256": "b8da3ab04284820ab2f5ca7c8a5153ddb7435b8ed8ac0755804104a0f242e579",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/04-Physical_Harm.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/05-EconomicHarm.json",
+      "git_blob": "4945531ed2cda03d8fc3f68b1848d4cd7770cbe3",
+      "bytes": 673769,
+      "sha256": "3bea529df6917e5d8f5d661063faed00d59ef92d58b489150412e3581ddf1f11",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/05-EconomicHarm.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/06-Fraud.json",
+      "git_blob": "8ecbbed9b03291d84638ee72918b39048bcda443",
+      "bytes": 756105,
+      "sha256": "46e9e144d5f37e1da8f92759501d417cc6ef4c374e826a8b61205cc8aa14b0b2",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/06-Fraud.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/07-Sex.json",
+      "git_blob": "df4e5d176724658eb0c88db6ee542064194484c9",
+      "bytes": 561923,
+      "sha256": "a11d332fd18991d42101cf44e7bf9113873c477f68fa689d2a4ae6d9580c6c07",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/07-Sex.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/08-Political_Lobbying.json",
+      "git_blob": "747f844661040d091d21215ef478e8b5592e35d5",
+      "bytes": 862730,
+      "sha256": "e4166c665c8f54e5e32cdf9bea868819209ffb3104910ce3fb92a8536e62b8a2",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/08-Political_Lobbying.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/09-Privacy_Violence.json",
+      "git_blob": "4ae87704ce464ca0a1284d552d04f7fcf14dce04",
+      "bytes": 691851,
+      "sha256": "73d2fceb151bcb36a0c849530a42ebca56050c719267ab1cdf974e2969f451fe",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/09-Privacy_Violence.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/10-Legal_Opinion.json",
+      "git_blob": "ecc5073120fbad0eb2a0fa3a25fbd72cdf938659",
+      "bytes": 703834,
+      "sha256": "89f9f2827233db15e09c475c7f4fa57a141ade7daa267072f2b761f76636d0f4",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/10-Legal_Opinion.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/11-Financial_Advice.json",
+      "git_blob": "29a695644bec99cf367996608880c51752020750",
+      "bytes": 884304,
+      "sha256": "73357ff9eeb305744cd61b2227a196fa39a712c9a271ce8acf5a8b9fb286826c",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/11-Financial_Advice.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/12-Health_Consultation.json",
+      "git_blob": "4438b136799082d39d1957f63fc01779760a8994",
+      "bytes": 482975,
+      "sha256": "262e17539647cb3be04fa137dd95969ec8a2ca549a4b94856308e4b8386746d8",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/12-Health_Consultation.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/questions_with_answers/13-Gov_Decision.json",
+      "git_blob": "f3e934bc268a45ad0c4f94dfdd7758179e47f718",
+      "bytes": 853381,
+      "sha256": "d205ff14175df1a094e3956d169218c4b00f2c3df2602f85a19838483c94848f",
+      "disposition": "preserved byte-for-byte; identical across main and Step3",
+      "targets": [
+        "results/mmsafetybench/13-Gov_Decision.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/requirements.txt",
+      "git_blob": "89379fa290f3da1238b0aff08a1fd980612dac15",
+      "bytes": 69,
+      "sha256": "39176aca325f0c6fc8da20c027ce054f792c81850807323d82de6c57dbd22ac5",
+      "disposition": "dependencies organized into optional package extras",
+      "targets": [
+        "pyproject.toml"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/run_inference.py",
+      "git_blob": "433da5a4d35a8b8f02a8dec0a9f725ffc0faefb3",
+      "bytes": 8377,
+      "sha256": "6030f519e2c6d3c24a979a3112b127a70271e13398605ab38f013294dcf1b98c",
+      "disposition": "ported with documented execution and accounting corrections",
+      "targets": [
+        "experiments/evaluation/infer.py",
+        "reference/original_code/evaluation/run_inference.py"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "evaluation/test_responses.jsonl",
+      "git_blob": "603dada624ac7159ff18ef94aa5610c565780f22",
+      "bytes": 1615,
+      "sha256": "dc033d544c9e182f6ec119907080e908a78d49ca16047f3446cf173ca2abfd92",
+      "disposition": "preserved test fixture",
+      "targets": [
+        "tests/fixtures/mmsafetybench_responses.jsonl"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "gemma3_4B_lora_faces_ft.ipynb",
+      "git_blob": "3d42c176e1b84202326730dca88a3deb6a4411dd",
+      "bytes": 1557773,
+      "sha256": "ab8143b0f9e588ffa6c5bb0e073d92a3377b166884180e815ee7f648102bfe48",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/training/finetune_gemma.py",
+        "results/recorded/gemma3_4B_lora_faces_ft.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "generations.pt",
+      "git_blob": "e5f05dced9a1a01c0ac1fac7bdc075e61f697d46",
+      "bytes": 253765,
+      "sha256": "88a4fecd0e62a5e791c9931f202357bdbd26bea43f960a430c48532cf282183e",
+      "disposition": "unaltered checksum-pinned release asset; readable export in Git",
+      "targets": [
+        "provenance/artifacts.json",
+        "results/summaries/artifacts/Step3__generations.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "matched_cross_pathway_geometry_v1/matched_directions_and_activations.pt",
+      "git_blob": "ac42efc3d52fd67416f271c7c88450fb19b0dae4",
+      "bytes": 12312753,
+      "sha256": "4e6efa08fdb61276033aa40953e42376a8a58a70614303f08576fb0c6f14b263",
+      "disposition": "unaltered checksum-pinned release asset; readable export in Git",
+      "targets": [
+        "provenance/artifacts.json",
+        "results/summaries/artifacts/Step3__matched_cross_pathway_geometry_v1__matched_directions_and_activations.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "qwen_judgments.pt",
+      "git_blob": "478b2edb74e8d2b537e08cf9ae24dd6c196aed75",
+      "bytes": 104215,
+      "sha256": "ba01bfaeb779f756c11fc28975f20619d83fefadfd662c89e2db0e3423f5f292",
+      "disposition": "unaltered checksum-pinned release asset; readable export in Git",
+      "targets": [
+        "provenance/artifacts.json",
+        "results/summaries/artifacts/Step3__qwen_judgments.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "sanity_check_ft_EM_models.ipynb",
+      "git_blob": "c7b15e77e471db322b7a0ce5d3e8440cbd0e3c98",
+      "bytes": 1114589,
+      "sha256": "e4547da70abbf4ef262e11f4477955f52a0c4d8ae6a6b5c02f469870c3be76bf",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/training/sanity_check.py",
+        "results/recorded/sanity_check_ft_EM_models.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_code.ipynb",
+      "git_blob": "a7ae653b4128dfdfae63861f0a5b8235ff6a2dcb",
+      "bytes": 22352,
+      "sha256": "8e01c7e1f9276ff2697f2c03ae96416327b439f0d2533e0a9221cc39e2d53b3f",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/steering/text_pilot.py",
+        "results/recorded/step3_code.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_component_resolved_complete.pt",
+      "git_blob": "2df695ffbc528bd79f9470627791412b178b5364",
+      "bytes": 367817,
+      "sha256": "de009c90fd4d87b8229b8ee5a845ddf866d68db79f0cfe749c3ac8c9ac85b1b9",
+      "disposition": "unaltered checksum-pinned release asset; readable export in Git",
+      "targets": [
+        "provenance/artifacts.json",
+        "results/summaries/artifacts/Step3__step3_component_resolved_complete.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_matched_vision.ipynb",
+      "git_blob": "3dffe81e31b75efaab5e6fda4610e2abd864d2f1",
+      "bytes": 53228,
+      "sha256": "d9881acc50ee835209698233ae6c23623cf0f95b8cfdc39f4b854a6bb45eda6a",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/steering/matched_image_contrast.py",
+        "results/recorded/step3_matched_vision.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_shared_causal_repair_complete.pt",
+      "git_blob": "e579fa2afb58f93a17c15d5b787ce294ee61c934",
+      "bytes": 171989,
+      "sha256": "730b07c10f6f00976d7bdd418d54b72d3c1771190c8af4d4373259937bdbb30d",
+      "disposition": "unaltered checksum-pinned release asset; readable export in Git",
+      "targets": [
+        "provenance/artifacts.json",
+        "results/summaries/artifacts/Step3__step3_shared_causal_repair_complete.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_text_validated.pt",
+      "git_blob": "f924297fbe3f42073098a6e16a57490cffdd4985",
+      "bytes": 12036,
+      "sha256": "17a16e693e19b1173654c08c4b0cfbd9f9288d43c539b9ba7d2a0adb8822a7e6",
+      "disposition": "unaltered checksum-pinned release asset; readable export in Git",
+      "targets": [
+        "provenance/artifacts.json",
+        "results/summaries/artifacts/Step3__step3_text_validated.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_vision.ipynb",
+      "git_blob": "674ad6ecd502dbad25b4ff78ec78e78df16f4724",
+      "bytes": 148380,
+      "sha256": "fe7523e737f88236d91b810a12201547f8e7ef3c9725db89dd9c775c6e54a174",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/steering/component_resolved.py",
+        "results/recorded/step3_vision.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_vision_cbehavior_check.ipynb",
+      "git_blob": "5269093bc24dd04f9e7620357b7da1dbaaf78a2e",
+      "bytes": 51846,
+      "sha256": "65b71a000f0c9b36571a6a3e8e38e9160384fc7039d104912419cb1de803ef4c",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/steering/description_behavior.py",
+        "results/recorded/step3_vision_cbehavior_check.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_vision_validation.ipynb",
+      "git_blob": "e5da3266a7d315725e1169817d82b32a6f26654f",
+      "bytes": 161680,
+      "sha256": "b6729a19a148177b78fe7979d9eea45763d6a332794dc68448f5fc3548d6b423",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/steering/shared_validation.py",
+        "results/recorded/step3_vision_validation.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "step3_vision_validation_new.ipynb",
+      "git_blob": "353365822fa133cb8203c383c8bc591e4d5a39d0",
+      "bytes": 148176,
+      "sha256": "29ab2c489d312ba93dfeee1f60a2d28b66531b56c82652d36d7f4f5b011ff315",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/steering/component_resolved.py",
+        "results/recorded/step3_vision_validation_new.json"
+      ]
+    },
+    {
+      "branch": "Step3",
+      "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+      "path": "synthetic_text_gen_pipeline.ipynb",
+      "git_blob": "8128b94a04de018dc6e266055b652ccc08a9ccb5",
+      "bytes": 34885,
+      "sha256": "7975d01dee2fd498dd7c2f52e6f24f02dad39192c81a98c971babca14eec4175",
+      "disposition": "ported; original recorded text outputs preserved",
+      "targets": [
+        "experiments/training/generate_prompts.py",
+        "results/recorded/synthetic_text_gen_pipeline.json"
+      ]
+    }
+  ]
+}

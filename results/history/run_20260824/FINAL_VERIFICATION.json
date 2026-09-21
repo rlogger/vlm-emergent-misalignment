@@ -1,0 +1,61 @@
+{
+  "artifacts": {
+    "causal_summary": {
+      "path": "/content/drive/MyDrive/lin-vsar-algoverse/step3_vision_validation/runs/20260824_gemma3_vlguard_paired_model_shift_v1/causal_validation_v1/summary_batched10.json",
+      "sha256": "e21d71954a29123735f9691aba58d84477c9178e9fe2ffff777afda1e89a0b70"
+    },
+    "cross_results": {
+      "path": "/content/drive/MyDrive/lin-vsar-algoverse/step3_vision_validation/runs/20260824_gemma3_vlguard_paired_model_shift_v1/matched_cross_pathway_geometry_v1/results.json",
+      "sha256": "5fc0422f6bf97d623685e6775dfa0cfd4f88ee70da360067483089108470dad3"
+    },
+    "handoff_json": {
+      "path": "/content/drive/MyDrive/lin-vsar-algoverse/step3_vision_validation/runs/20260824_gemma3_vlguard_paired_model_shift_v1/ARSHIA_HANDOFF.json",
+      "sha256": "c41cb7619a802611c016741dad927609fd797b178be09d04737d9b467d79586d"
+    },
+    "handoff_md": {
+      "path": "/content/drive/MyDrive/lin-vsar-algoverse/step3_vision_validation/runs/20260824_gemma3_vlguard_paired_model_shift_v1/ARSHIA_HANDOFF.md",
+      "sha256": "37d2b0a363fc35b7a4e7fa2ee5d5f2f05b0041828de552fde495332a60fc0914"
+    },
+    "matched_directions": {
+      "path": "/content/drive/MyDrive/lin-vsar-algoverse/step3_vision_validation/runs/20260824_gemma3_vlguard_paired_model_shift_v1/matched_cross_pathway_geometry_v1/matched_directions_and_activations.pt",
+      "sha256": "4e6efa08fdb61276033aa40953e42376a8a58a70614303f08576fb0c6f14b263"
+    },
+    "qwen3guard_summary": {
+      "path": "/content/drive/MyDrive/lin-vsar-algoverse/step3_vision_validation/runs/20260824_gemma3_vlguard_paired_model_shift_v1/causal_validation_v1/qwen3guard_secondary_v1/summary.json",
+      "sha256": "b4eaf1e5213d390c31b616d98a97f653c6ba49bdf1489595c06db80603b1b5ea"
+    }
+  },
+  "checks": {
+    "c_text_norm": 1.0000001192092896,
+    "c_text_shape": [
+      2560
+    ],
+    "c_vis_norm": 0.9999999403953552,
+    "c_vis_shape": [
+      2560
+    ],
+    "causal_generation_rows": 350,
+    "causal_unique_item_conditions": 350,
+    "cross_cosine_recomputed": 0.8019487261772156,
+    "matched_tensor_keys": [
+      "base_text",
+      "base_vis",
+      "c_text",
+      "c_vis",
+      "delta_text",
+      "delta_vis",
+      "ft_text",
+      "ft_vis",
+      "layer_zero_based",
+      "protocol_sha256",
+      "schema_version",
+      "source_manifest_sha256",
+      "status"
+    ],
+    "qwen3guard_invalid_parses": 0,
+    "qwen3guard_judgment_rows": 350
+  },
+  "schema_version": "step3-vision-final-verification-v1",
+  "status": "VERIFIED",
+  "verification_sha256": "3708ceb5c7174d1c03e853828aa892efe502b4ebe871cbcf86dc82b50823ea99"
+}

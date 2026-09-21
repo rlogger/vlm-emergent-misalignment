@@ -1,0 +1,28 @@
+{
+  "source": {
+    "branch": "Step3",
+    "commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+    "path": "step3_text_validated.pt",
+    "git_blob": "f924297fbe3f42073098a6e16a57490cffdd4985",
+    "bytes": 12036,
+    "sha256": "17a16e693e19b1173654c08c4b0cfbd9f9288d43c539b9ba7d2a0adb8822a7e6",
+    "asset_name": "Step3__step3_text_validated.pt",
+    "local_path": "results/artifacts/Step3/step3_text_validated.pt",
+    "release_tag": "source-artifacts-v1"
+  },
+  "status": "recorded upstream artifact; not a fresh experiment",
+  "data": {
+    "c_text_data": {
+      "tensor_shape": [
+        2560
+      ],
+      "dtype": "torch.float32",
+      "values": "Available in original .pt artifact"
+    },
+    "baseline": 70.0,
+    "repair_our": 58.0,
+    "repair_random": 77.0,
+    "alpha": 150,
+    "n": 10
+  }
+}

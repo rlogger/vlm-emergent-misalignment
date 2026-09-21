@@ -1,0 +1,50 @@
+{
+  "status": "Faithful transcription of the original submitted tables; not newly generated experimental results.",
+  "source_pdf": "paper/submitted.pdf",
+  "source_pdf_sha256": "7623ff53aa7e69ec36fd8ef1074281f5dd4ff1e27497f32b9364b0bf52ea3a5e",
+  "tables": [
+    {
+      "number": 1,
+      "file": "table_01_geometry.csv",
+      "page": 4,
+      "section": "4.1 / 4.3",
+      "caption": "Cross-pathway geometry: model-difference (Experiment 1, N = 150) versus cross-dataset (Experiment 3, N = 500). Random baselines: -0.001 +/- 0.019 (Exp. 1), -0.000 +/- 0.020 (Exp. 3)."
+    },
+    {
+      "number": 2,
+      "file": "table_02_causal_validation.csv",
+      "page": 5,
+      "section": "4.3",
+      "caption": "Component-resolved causal validation at layer 13, N = 48, alpha = 600. ASR is Qwen3Guard unsafe compliance. Intervals are source-stratified bootstrap 95% CIs on the paired difference."
+    },
+    {
+      "number": 3,
+      "file": "table_03_single_layer.csv",
+      "page": 7,
+      "section": "Appendix C",
+      "caption": "Model-difference extraction. Random baseline -0.003 +/- 0.022"
+    },
+    {
+      "number": 4,
+      "file": "table_04_before_after.csv",
+      "page": 8,
+      "section": "Appendix D",
+      "caption": "Before/after rotation and shift magnitude, N = 500."
+    },
+    {
+      "number": 5,
+      "file": "table_05_response_diversity.csv",
+      "page": 9,
+      "section": "Appendix G",
+      "caption": "Response diversity under a fixed prompt on 96 distinct held-out VLGuard images (48 harmful, 48 safe), varying only the image. Unique responses counts distinct generated strings; unique activations counts distinct pooled image-token representations at layer 13. Fine-tuning collapses generated descriptions onto a small set of templates while leaving image-token representations fully distinct.",
+      "caption_status": "Original submitted caption retained; activation interpretation is not validated by available artifacts."
+    }
+  ],
+  "format_notes": [
+    "Printed numeric precision and explicit plus signs retained as CSV text.",
+    "Minus signs are normalized to ASCII hyphens; mathematical headers are given descriptive ASCII names.",
+    "Original Random 1 / 2 / 3 combined row retained.",
+    "Paper dashes in baseline difference/CI cells use ASCII hyphen; original blank random difference/CI cells remain empty.",
+    "Support columns describe current evidence, not changes to the submitted numbers."
+  ]
+}

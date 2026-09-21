@@ -1,0 +1,6 @@
+{
+  "source_sha256": "4e6efa08fdb61276033aa40953e42376a8a58a70614303f08576fb0c6f14b263",
+  "cosine": 0.8019487261772156,
+  "layer_zero_based": 13,
+  "construction": "paired FT-minus-base shifts at text/image-token positions"
+}

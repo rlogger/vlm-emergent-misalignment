@@ -1,0 +1,84 @@
+{
+  "source_path": "step3_matched_vision.ipynb",
+  "branches": [
+    "Step3"
+  ],
+  "source_commit": "e7f765b6cdf67db4017a98182a13539e861dabe4",
+  "source_sha256": "d9881acc50ee835209698233ae6c23623cf0f95b8cfdc39f4b854a6bb45eda6a",
+  "cells": [
+    {
+      "index": 2,
+      "execution_count": 3,
+      "outputs": [
+        {
+          "text": "HOD            held-out available: unsafe  77  safe 102\nharm-p         held-out available: unsafe  43  safe  36\nhatefulMemes   held-out available: unsafe 100  safe  79\nprivacyAlert   held-out available: unsafe 143  safe 234\n\nK per class per source = 36  (limited by the scarcest source)\n"
+        },
+        {
+          "text/plain": "         source  unsafe  safe\n0           HOD      36    36\n1        harm-p      36    36\n2  hatefulMemes      36    36\n3  privacyAlert      36    36"
+        },
+        {
+          "text": "Composition is identical across classes by construction, so domain cannot drive the axis. bad_ads is excluded (not an evaluated source).\noverlap with eval banks: 0\n"
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "execution_count": 4,
+      "outputs": [
+        {
+          "text/plain": "Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]"
+        },
+        {
+          "text": "capturing HOD ... done\ncapturing harm-p ... done\ncapturing hatefulMemes ... done\ncapturing privacyAlert ... done\n"
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "execution_count": 5,
+      "outputs": [
+        {
+          "text/plain": "                                        quantity    value\n0  split-half cosine, mean over 50 random splits   0.0806\n1                         split-half cosine, min  -0.9802\n2                         split-half cosine, max   0.8638\n3                    raw matched difference norm  22.9102\n4           raw unmatched pooled difference norm  22.9111\n5                 cos(matched, unmatched pooled)   1.0000\n6                   cos(c_vis_matched, c_vis_ft)   0.9310\n7            cos(c_vis_matched, c_text_response)   0.4001\n8                  cos(c_vis_matched, c_text_ft)   0.7917"
+        },
+        {
+          "text": "per-source matched direction cosines:\n"
+        },
+        {
+          "text/plain": "                HOD  harm-p  hatefulMemes  privacyAlert\nHOD           1.000  -0.917         0.951         0.787\nharm-p       -0.917   1.000        -0.929        -0.822\nhatefulMemes  0.951  -0.929         1.000         0.825\nprivacyAlert  0.787  -0.822         0.825         1.000"
+        },
+        {
+          "text": "\n========================================================================\nNOT IDENTIFIABLE (split-half 0.081 < 0.5).\nB4/B5 will skip. This is a RESULT, not a failure:\n  Even with matched per-source composition and equal N per class,\n  the safe/unsafe image contrast does not yield a stable axis in the\n  pooled image-token residual at layer 13. Causal testing of such a\n  direction is not meaningful, which independently explains why the\n  vision pathway shows no causal effect. Report the split-half\n  distribution and the per-source cosine matrix as the evidence.\n========================================================================\n"
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "execution_count": 8,
+      "outputs": [
+        {
+          "text": "skipped: direction not identifiable\n"
+        },
+        {
+          "ename": "NameError",
+          "evalue": "name 'model' is not defined",
+          "traceback": "---------------------------------------------------------------------------NameError                                 Traceback (most recent call last)Cell In[8], line 100\n     97 else:\n     98     print(\"skipped: direction not identifiable\")\n--> 100 del model, _base\n    101 gc.collect()\n    102 torch.cuda.empty_cache()\nNameError: name 'model' is not defined"
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "execution_count": 7,
+      "outputs": [
+        {
+          "text/plain": "                                 comparison  delta_pp   n  ci_low  ci_high\n0                               text repair    -45.83  48  -58.33   -33.33\n1                               text induce     22.92  48   12.50    35.42\n2                    vision FT-shift repair      2.08  48   -8.33    12.50\n3                    vision FT-shift induce     -4.17  48  -12.50     4.17\n4  vision image-contrast (unmatched) repair     -2.08  48  -12.50     8.33\n5  vision image-contrast (unmatched) induce    -12.50  48  -25.00     0.00\n6     vision image-contrast at IMAGE TOKENS      0.00  48   -8.33     8.33\n7                             shared repair    -31.25  48  -43.75   -18.75\n8                         shared minus text     14.58  48    6.25    25.00"
+        },
+        {
+          "text/plain": "      bank condition   n  asr_qwen_unsafe_compliance  qwen_unsafe_rate  \\\n0  confirm  baseline  48                       47.92             47.92   \n1   benign  baseline  20                        0.00              0.00   \n\n   qwen_refusal_rate  output_valid  \n0               6.25         100.0  \n1               0.00         100.0  "
+        },
+        {
+          "text": "\nsaved: /workspace/step3_shared_causal_rerun_v1/step3_vision_matched_addendum.pt\n-rw-rw-rw- 1 root root 471K Aug 28 00:34 /workspace/step3_results_full.zip\nDownload the zip AND File > Download this notebook before stopping the pod.\n"
+        }
+      ]
+    }
+  ]
+}
